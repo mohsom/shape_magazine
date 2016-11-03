@@ -1,0 +1,255 @@
+@media screen and (max-width: 1024px) {
+	body, div{
+		transition: 0.5s;
+	} 
+   .wrapper {
+	width: 700px;
+}
+
+.wrapper .top .box1 {
+    width: 18%;
+}
+.wrapper .top .box2 {
+    width: 60%;
+}
+.wrapper .top .box2 .top_menu {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.wrapper .top .box2 .top_menu ul li {
+    margin: 0 22px 0 0;
+}
+.wrapper .top .box3 {
+    width: 21%;
+}
+.wrapper .top2 .t2_box1 {
+    width: 100%;
+}
+.wrapper .top2 .t2_box2 {
+    display: none;
+} 
+.wrapper .main_menu_wrapper .main_menu ul {
+    padding: 11px 0 0;
+}
+.wrapper .main_menu_wrapper .main_menu ul li {
+    margin: 0 0 0 29px;
+}
+.wrapper .main_menu_wrapper .main_menu ul li a {
+    font-size: 18px;
+}
+.wrapper .main_container .content {
+    padding: 0 15px;
+}
+.wrapper .main_container .content .grey_box .gb_inner .text {
+    width: 65%;
+}
+.wrapper .main_container .bottom .offer_box img {
+    width: 5px;
+}
+.wrapper .main_container .bottom .offer_box p {
+    font-size: 14px;
+}
+.wrapper .main_container .bottom .product_box h1 {
+    font-size: 17px;
+}
+.wrapper .main_container .bottom .product_box .p_box2 {
+    width: 74%;
+}
+.wrapper .facebook .fb_comments .prof_pic {
+    width: 8%;
+}
+.wrapper .facebook .fb_comments .prof_pic2 {
+    width: 10%;
+}
+.wrapper .main_container .content img.img_auto {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 770px) {
+.wrapper {
+    width: 550px;
+}
+.wrapper .top{
+	height: auto;
+}
+.wrapper .top .box1 {
+    width: 87%;
+}
+.wrapper .top .box2 {
+    display: none;
+}
+.wrapper .main_menu_wrapper {
+    display: none;
+}
+.wrapper .main_container .content {
+    width: 93%;
+}
+.wrapper .top .box3 .b3_l .main_menu_mobile{
+	display: none;
+	border: none;
+	width: 100%;
+}
+.wrapper .top .box3 .b3_l {
+    margin: 4px 0 0;
+    border: none;
+}
+.wrapper .top .box3 .b3_l .main_menu_mobile ul li{
+	display: block;
+	margin: 0;
+}
+.wrapper .top .box3 .b3_l .main_menu_mobile ul li a{
+	display: block;
+	border-bottom: 1px solid #d9dee2;
+	padding: 15px 0px;
+}
+.wrapper .top .box3 .b3_l img.button{
+	display: block;
+	width: 41px;
+	height: 38px;
+	margin: 0px;
+}
+.wrapper .top .box3 .b3_l p{
+	display: none;
+}
+.wrapper .top .box3 .b3_l img{
+	display: none;
+}
+.wrapper .top .box3 {
+    display: inline-block;
+    width: 10%;
+}
+.wrapper .top .box3 .b3_r{
+	display: none;
+}
+
+.top2_container,
+.wrapper .top2{
+	height: auto;
+	background-image: none;
+	background-color: #191919;
+}
+.wrapper .top2 .t2_box1,
+.wrapper .top2 .t2_box2{
+    display: none;
+}
+
+.wrapper .main_container .content {
+    padding: 0 15px;
+    width: 95%;
+}
+.wrapper .main_container .sidebar {
+	display: none;
+}
+.wrapper .main_container .bottom .offer_box img {
+    display: none;
+}
+.wrapper .main_container .bottom .product_box h1 {
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper .facebook .fb_comments .prof_pic {
+    width: 10%;
+}
+.wrapper .facebook .fb_comments .prof_pic2 {
+    width: 13%;
+}
+.wrapper .facebook .fb_comments .comments_inner {
+    width: 83%;
+}
+.wrapper .main_container .bottom .offer_box p {
+    font-size: 14px;
+    text-align: center;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+.wrapper {
+    width: 380px;
+}
+.wrapper .top .box2 {
+    display: none;
+}
+.wrapper .main_menu_wrapper {
+    display: none;
+}
+.wrapper .main_container .content {
+    width: 93%;
+}
+
+.wrapper .main_container .content img.normal_size {
+    width: 80%;
+}
+.wrapper .main_container .bottom .product_box img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+.wrapper .main_container .bottom .product_box .p_box2 {
+    text-align: center;
+    width: 100%;
+}
+.wrapper .facebook .fb_comments .prof_pic {
+    width: 15%;
+}
+.wrapper .facebook .fb_comments .comments_inner {
+    width: 80%;
+}
+.wrapper .facebook .fb_comments .prof_pic2 {
+    width: 20%;
+}
+.wrapper .facebook .fb_comments .comments_inner {
+    width: 76%;
+}
+
+}
+
+
+@media screen and (max-width: 420px) {
+.wrapper {
+    width: 95%;
+}
+.wrapper .top .box1 {
+    width: 82%;
+}
+.wrapper .main_container .content h1 {
+    font-size: 20px;
+    line-height: 23px;
+}
+.wrapper .main_container .content {
+    width: 90%;
+}
+.wrapper .main_container .content .caption {
+    font-size: 16px;
+}
+.wrapper .main_container .bottom .product_box .p_box2 .order_button {
+    background-size: 100% auto;
+    margin: 20px 0 0;
+    width: 90%;
+}
+.wrapper .main_container .content .grey_box .gb_inner .text {
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper .main_container .content .grey_box .gb_inner .pic {
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: top;
+    width: 100%;
+}
+
+.wrapper .facebook .top_facebook .box1, .wrapper .facebook .top_facebook .box2 {
+    width: 78%;
+}
+.wrapper .facebook .top_facebook .box2 {
+    display: none;
+}
+.wrapper .facebook .fb_comments .prof_pic {
+    width: 20%;
+}
+.wrapper .facebook .fb_comments .prof_pic2 {
+    width: 34%;
+}
+}
